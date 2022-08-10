@@ -30,7 +30,7 @@ public class Distance : MonoBehaviour
     public GameObject it6_up_right;
     public GameObject it6_bottom_left;
 	
-    // Razdalja ImageTargetX, ImageTargetY se meri na dveh točkah, zato dvomesten array.
+    
     float distance_it1_it2_0;
     float distance_it1_it2_1; 
     float distance_it1_it4_0;
@@ -90,6 +90,7 @@ public class Distance : MonoBehaviour
             Debug.Log("Distance 3-6 : " + distance_it3_it6_0 + ", " + distance_it3_it6_1);
             Debug.Log("3 and 6 are joined.");
         }
-       
+
     }
+
 }
